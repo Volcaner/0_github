@@ -1,3 +1,243 @@
-p{
-	color: green;
+*{
+	/*margin-top: 0;
+	margin-left: auto;*/
+	margin: 0 0;
+}
+
+body{
+	background-color: #c3e2cc;
+	/*overflow-x:hidden;*/
+	/*margin: 0 0;*/
+	/*padding: 0 0;*/
+}
+#index_frame{
+	/*float: left;*/
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 0px 0px;
+	margin: 0 auto;
+}
+
+
+/*index_top*/
+#index_top{
+	position: relative;
+	width: 100%;
+	height: auto;
+	/*margin-top: -50px;*/
+	/*background-color: #aaa;*/
+
+}
+#index_top_pic01,#index_top_pic02,#index_top_pic03{
+	position: absolute;
+	width: 100%;
+	z-index: 0;
+	/*box-shadow: 0px 5px 2px #aaa;*/
+}
+#index_top_pic01 img,#index_top_pic02 img,#index_top_pic03 img{
+	width: 100%;
+}
+.smallCircle{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 200px 0px 0px 0px;
+	z-index: 1;
+}
+.smallCircle:hover{
+	background: #ccc;
+}
+#index_logo{
+	position: relative;
+	width: 282px;
+	padding-top: 50px;
+	z-index: 100;
+}
+#index_logo img{
+	width: 100%;
+}
+#orders{
+	position: relative;
+	width: 100%;
+	margin-top: 70px;
+	/*margin-left: 0.7%;*/
+
+}
+/*.orders_frame{
+	position: absolute;
+	margin: 0 10%;
+}*/
+#orders a{
+	margin: 0 10.4%;
+	color: #666;
+	padding: 5px 0px;
+	text-decoration: none;
+	font-family: "幼圆";
+	font-weight: bold;
+	font-size: 24px;
+	background-image: url(../images/line_float.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 0px 2px;
+}
+#orders a:hover{
+	text-decoration: none;
+	color: #000;
+	background-size: 50px 2px;
+	transition-delay: 0s;
+	transition-duration: 0.5s;
+	transition-property: background-size;
+	transition-timing-function: ease;
+
+}
+#line{
+	position: relative;
+}
+
+
+/*index_areas*/
+#index_areas{
+	position: relative;
+	margin-top: 50px;
+	width: 100%;
+	height: auto;
+	/*background-color: #aaa;*/
+	z-index: 99;
+}
+#index_areas_01,#index_areas_02,#index_areas_03,#index_areas_04{
+	float: left;
+	width: 21%;
+	height: 300px;
+	background: #fefefe;
+	margin: 0 2%;
+}
+#areas_01_wesp, #areas_02_wesp, #areas_03_wesp, #areas_04_wesp{
+	width: 140px; 
+	text-align: center;
+	margin: 20px auto;
+}
+#areas_01_wesp{
+	background-image: url(../images/areas_logo_01.png); 
+	background-repeat: no-repeat;
+}
+#areas_02_wesp{
+	background-image: url(../images/areas_logo_02.png); 
+	background-repeat: no-repeat;
+}
+#areas_03_wesp{
+	background-image: url(../images/areas_logo_03.png); 
+	background-repeat: no-repeat;
+}
+#areas_04_wesp{
+	background-image: url(../images/areas_logo_04.png); 
+	background-repeat: no-repeat;
+}
+.areas_we_css{
+	padding-left: 0px;
+	height: 19px; 
+	line-height: 19px;
+	font-size: 22px;
+	font-family: "幼圆";
+	color: #555;
+	text-decoration: none;
+	cursor: pointer;
+}
+.areas_we_css:hover{
+	text-decoration: none;
+	color: #000;
+}
+#areas_01_intro{
+	float: left;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+#areas_01_intro p{
+	font-size: 18px;
+	font-family: "幼圆";
+	color: #777;
+}
+.areas_01_ud{
+	width: 10%;
+	padding: 0px 10px;
+	cursor: pointer;
+}
+
+/*#areas_02_wesp{
+	width: 140px; 
+	text-align: center;
+	margin: 20px auto;
+}*/
+/*#areas_02_wesp p{
+	background-image: url(../images/areas_logo_01.png); 
+	background-repeat: no-repeat;
+	padding-left: 0px;
+	height: 19px; 
+	line-height: 19px;
+	font-size: 22px;
+	font-family: "幼圆";
+	color: #555;
+}*/
+#areas_02_intro{
+	float: left;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+#areas_02_intro p{
+	font-size: 18px;
+	font-family: "幼圆";
+	color: #777;
+}
+.areas_01_detail{
+	display: none; 
+	width: 100%; 
+	height: 173px;
+}
+.areas_01_detail p{
+	width: 80%; 
+	margin: 0px auto; 
+	padding-top: 20px; 
+	font-family: 幼圆; 
+	color: #3bd6f2; 
+	font-size: 14px; 
+}
+
+/*index_footer*/
+#index_footer{
+	width: 100%;
+	height: 75px;
+	position: relative;
+	margin-top: 50px;
+	/*padding-top: 50px;*/
+	float: left;
+	/*background: rgb(255,255,255);*/
+	/*bottom: 0px;*/
+	border-radius: 0 0 10px 10px;
+	text-align: center;
+	line-height: 15px;
+}
+#footer_back{
+	position: absolute;
+	/*margin-top: 15px;*/
+	padding-top: 15px;
+	opacity: 0.5;
+	width: 100%;
+	height: 90px;
+	background: #fff;
+	z-index: 3;
+}
+#index_footer p{
+	/*display: block;*/
+	width: 100%;
+	position: absolute;
+	font-size: 12px;
+	font-family: "幼圆";
+	color: #aaa;
+	z-index: 4;
 }
