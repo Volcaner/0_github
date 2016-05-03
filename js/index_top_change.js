@@ -1,9 +1,11 @@
-var WIDTH = document.body.clientWidth;
 window.onload = function(){
-	document.getElementById('index_logo').style.marginLeft = ( WIDTH/2 - 141 ) + "px";
-	document.getElementById('smallCircle3').style.marginLeft = ( WIDTH/2 - 2.5 + 50 ) + "px";
-	document.getElementById('smallCircle2').style.marginLeft = ( WIDTH/2 - 2.5 ) + "px";
-	document.getElementById('smallCircle1').style.marginLeft = ( WIDTH/2 - 2.5 - 50 ) + "px";
+	var WIDTH = document.body.clientWidth;
+	var sCW = $("#index_smallCircle").width();
+	// console.log(sCW)
+	// document.getElementById('index_logo').style.marginLeft = ( WIDTH/2 - 141 ) + "px";
+	document.getElementById('smallCircle3').style.marginLeft = ( sCW/2 - 7 + 50 ) + "px";
+	document.getElementById('smallCircle2').style.marginLeft = ( sCW/2 - 7 ) + "px";
+	document.getElementById('smallCircle1').style.marginLeft = ( sCW/2 - 7 - 50 ) + "px";
 
 	document.getElementById('smallCircle1').style.background = "#ccc";
 	document.getElementById('smallCircle2').style.background = "";

@@ -23,11 +23,16 @@ body{
 /*index_top*/
 #index_top{
 	position: relative;
+	display: block;
 	width: 100%;
 	height: auto;
 	/*margin-top: -50px;*/
 	/*background-color: #aaa;*/
 
+}
+#index_top_pics{
+	position: relative;
+	width: 100%;
 }
 #index_top_pic01,#index_top_pic02,#index_top_pic03{
 	position: absolute;
@@ -38,33 +43,55 @@ body{
 #index_top_pic01 img,#index_top_pic02 img,#index_top_pic03 img{
 	width: 100%;
 }
-.smallCircle{
+
+#index_smallCircle{
 	position: absolute;
+	width: 20%;
+	height: 14px;
+	margin: 200px auto 0 40%;
+	
+}
+.smallCircle{
+	/*display: block;*/
+	position: absolute;
+	float: left;
 	width: 10px;
 	height: 10px;
 	border: 2px solid #fff;
 	border-radius: 10px;
 	cursor: pointer;
-	margin: 200px 0px 0px 0px;
+	/*margin: 0px auto 0px auto;*/
 	z-index: 1;
 }
 .smallCircle:hover{
 	background: #ccc;
 }
 #index_logo{
-	position: relative;
-	width: 282px;
+	position: absolute;
+	width: 100%;
 	padding-top: 50px;
+	text-align: center;
 	z-index: 100;
 }
-#index_logo img{
+#index_logo a{
+	display: block;
 	width: 100%;
+	text-decoration: none;
+}
+#index_logo a:hover{
+	text-decoration: none;
+	cursor: crosshair;
+}
+#index_logo a img{
+	width: 282px;
+	height: 140px;
 }
 #orders{
 	position: relative;
 	width: 100%;
-	margin-top: 70px;
-	/*margin-left: 0.7%;*/
+	/*margin: 80px auto;*/
+	height: 114px;
+	/*z-index: 100;*/
 
 }
 /*.orders_frame{
@@ -72,8 +99,13 @@ body{
 	margin: 0 10%;
 }*/
 #orders a{
-	margin: 0 10.4%;
+	display: block;
+	float: left;
+	width: 25%;
+	text-align: center;
+	/*margin: 0 auto;*/
 	color: #666;
+	margin: 40px 0px;
 	padding: 5px 0px;
 	text-decoration: none;
 	font-family: "幼圆";
@@ -102,23 +134,27 @@ body{
 /*index_areas*/
 #index_areas{
 	position: relative;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	width: 100%;
-	height: auto;
+	min-height: 500px;
 	/*background-color: #aaa;*/
 	z-index: 99;
 }
 #index_areas_01,#index_areas_02,#index_areas_03,#index_areas_04{
+	border-radius: 5px 5px 0px 0px;
+	overflow: hidden;
 	float: left;
 	width: 21%;
-	height: 300px;
+	height: auto;
 	background: #fefefe;
 	margin: 0 2%;
 }
 #areas_01_wesp, #areas_02_wesp, #areas_03_wesp, #areas_04_wesp{
+	position: relative;
 	width: 140px; 
 	text-align: center;
 	margin: 20px auto;
+	/*float: left;*/
 }
 #areas_01_wesp{
 	background-image: url(../images/areas_logo_01.png); 
@@ -151,7 +187,7 @@ body{
 	color: #000;
 }
 #areas_01_intro{
-	float: left;
+	position: relative;
 	width: 100%;
 	height: 50px;
 	text-align: center;
@@ -162,8 +198,10 @@ body{
 	color: #777;
 }
 .areas_01_ud{
+	position: relative;
 	width: 10%;
 	padding: 0px 10px;
+	margin-bottom: 10px;
 	cursor: pointer;
 }
 
@@ -197,7 +235,7 @@ body{
 .areas_01_detail{
 	display: none; 
 	width: 100%; 
-	height: 173px;
+	height: 162px;
 }
 .areas_01_detail p{
 	width: 80%; 
@@ -240,4 +278,14 @@ body{
 	font-family: "幼圆";
 	color: #aaa;
 	z-index: 4;
+}
+
+/*we_folder_areas*/
+#we_folder_areas{
+	position: relative;
+	margin-top: 50px;
+	width: 100%;
+	height: auto;
+	/*background-color: #aaa;*/
+	z-index: 99;
 }

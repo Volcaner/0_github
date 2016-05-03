@@ -10,24 +10,29 @@
 <body width="100%">
 	<div id="index_frame">
 		<div id="index_top">
-			<div id="index_top_pic03"><img src="images/index-top-01.jpg" /></div>
-			<div id="index_top_pic02"><img src="images/index-top-02.jpg" /></div>
-			<div id="index_top_pic01"><img src="images/index-top-03.jpg" /></div>
-			<div id="smallCircle1" class="smallCircle"></div>
-			<div id="smallCircle2" class="smallCircle"></div>
-			<div id="smallCircle3" class="smallCircle"></div>
-			<div id="index_logo"><img width="242" height="140" src="images/index_logo.png" /></div>
+			<div id="index_top_pics">
+				<div id="index_top_pic03"><img src="images/index-top-01.jpg" /></div>
+				<div id="index_top_pic02"><img src="images/index-top-02.jpg" /></div>
+				<div id="index_top_pic01"><img src="images/index-top-03.jpg" /></div>
+				<div id="index_smallCircle">
+					<div id="smallCircle1" class="smallCircle"></div>
+					<div id="smallCircle2" class="smallCircle"></div>
+					<div id="smallCircle3" class="smallCircle"></div>
+				</div>
+				<div id="index_logo"><a href="weCourse/wecourse.html"><img src="images/index_logo.png" /></a></div>
+			</div>		
 			<div id="orders">
 				<a id="orders_01" href="#">首页</a>
 				<a id="orders_02" href="weCourse/wecourse.html">微课</a>
-				<a id="orders_03" href="#">案例</a>
-				<a id="orders_04" href="#">下载</a>
+				<a id="orders_03" href="###">案例</a>
+				<a id="orders_04" href="###">下载</a>
 			</div>
 		</div>
+
 		<div id="index_areas">
 			<div id="index_areas_01">
-				<div id="areas_01_img"><video id="myVideo" width = "100%"  height = "auto" controls = "controls" poster="images/areas_01.jpg" ><!--preload = "" autoplay = ""--><!-- loop = "loop" -->
-					<source src = "./videos/wecourse_01.flv" type = "video/flv">
+				<div id="areas_01_img"><video id="myVideo" width = "100%"  height = "auto" controls = "controls" poster="images/areas_01.jpg" ><!--preload = "preload" autoplay = "autoplay"  loop = "loop" -->
+					<source src = "./videos/wecourse_01.ogg" type = "video/ogg">
 					<source src = "./videos/wecourse_01.mp4" type = "video/mp4">
 
 				</video></div>
@@ -92,12 +97,17 @@
 			<div id="footer_back"></div>
 		</div>
 	</div>
-
+	
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/index_top_change.js"></script>
 	<script type="text/javascript">
+		$(document).ready(function(){
+			var h = $("[src='images/index-top-01.jpg']").height();
+			console.log(h);
+			$("#index_top_pics").height(h);
+		})
 		document.getElementById('myVideo').volume = 0.5;
 	</script>
-	<script src="js/jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="js/index_areas_slide.js"></script>
 </body>
 </html>

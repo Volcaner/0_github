@@ -1,0 +1,29 @@
+/*we_folder_article*/
+#we_folder_article{
+	/*position: relative;*/
+	float: left;
+	width: 20%;
+	background: red;
+	height: 300px;
+}
+
+/*we_folder_body*/
+#we_folder_body{
+	/*position: relative;*/
+	float: left;
+	width: 60%;
+	height: 1000px;
+	background: green;
+}
+#we_folder_body blockquote{
+	line-height: 26px;
+	text-align: justify;
+}
+
+/*we_folder_aside*/
+#we_folder_aside{
+	float: left;
+	width: 20%;
+	height: 500px;
+	background: yellow;
+}

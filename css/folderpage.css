@@ -21,21 +21,25 @@
 	float: left;
 	width: 80%;
 	height: 79px;
-	/*margin-top: 15px;*/
-	/*line-height: 0px;*/
 }
 #folder_orders{
 	position: absolute;
 	width: 80%;
-	/*margin: 0px auto 0px auto;*/
 	z-index: 3;
 	line-height: 65px;
 	height: 65px;
 	/*text-align: center;*/
 }
 #folder_orders a{
-	padding: 5px 2px 5px 2px;
-	margin: 0px 73px 0px 117px;	
+	/*padding: 0px 10px 0px 10px;*/
+	text-align: center;
+	/*margin-left: 10px;*/
+	height: 59px;
+	float: left;
+	display: block;
+	line-height: 69px;
+	margin: 0 6% 0 4%;
+	width: 15%;
 	font-size: 24px;
 	font-family: "幼圆";
 	color: rgb(102, 102, 102);
@@ -60,7 +64,7 @@
 }
 #we_folder_back{
 	position: absolute;
-	margin-top: 49px;
+	margin-top: 59px;
 	padding-top: 0px;
 	opacity: 0.5;
 	width: 80%;
@@ -70,7 +74,7 @@
 }
 #we_folder_areas_orders{
 	position: absolute;
-	margin-top: 49px;
+	margin-top: 59px;
 	/*padding-top: 20px;*/
 	width: 80%;
 	height: 60px;
@@ -79,14 +83,19 @@
 	text-align: center;
 }
 #we_folder_areas_orders a{
+	display: block;
+	text-align: center;
+	float: left;
+	width: 25%;
 	font-size: 18px;
 	font-family: "幼圆";
 	color: rgb(102, 102, 102);
 	/*font-weight: bold;*/
 	text-decoration: none;
-	padding: 2px 35px 2px 35px;
-	margin: 0 60px;
+	/*padding: 2px 35px 2px 35px;*/
+	/*margin: 0 60px;*/
 	cursor: pointer;
+	background-position: 30% 50%;
 }
 #areas_orders1{
 	background-image: url(../images/areas_logo_01.png); 
@@ -103,19 +112,4 @@
 #areas_orders4{
 	background-image: url(../images/areas_logo_04.png); 
 	background-repeat: no-repeat;
-}
-
-
-
-
-
-
-
-
-/*we_folder_areas*/
-#we_folder_areas{
-	position: relative;
-	width: 100%;
-	height: 500px;
-	/*background: red;*/
 }
