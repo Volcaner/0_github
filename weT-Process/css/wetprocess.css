@@ -137,26 +137,3 @@
 	height: 500px;
 	/*background: yellow;*/
 }
-.folder_aside_box{
-	position: relative;
-	float: right;
-	width: 90%;
-	min-height: 300px;
-	border-left: 1px dashed #aaa;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border-radius: 0 0 5px 5px;
-}
-.folder_aside_box:hover{
-	background: rgba(0,185,239,0.4);
-}
-.folder_aside_box a{
-	text-decoration: none;
-	margin: 0 10px 10px 10px;
-	color: #fff;
-	display: block;
-}
-.folder_aside_box a:hover{
-	text-decoration: none;
-	color: #333;
-}
