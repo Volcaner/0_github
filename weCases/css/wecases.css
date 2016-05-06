@@ -139,6 +139,9 @@
 	padding: 50px 0px 50px 0px;
 	border-bottom: 1px dashed #aaa;
 }
+#folder_body_case small{
+	color: rgb(185,22,18)
+}
 
 /*we_folder_aside*/
 #we_folder_aside{
