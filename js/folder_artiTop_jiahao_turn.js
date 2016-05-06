@@ -46,13 +46,13 @@ jiaHaoObj.prototype.turnning = function(){
 	for(var i = 0; i < this.liNub; i++) {
 		if( cur_wfaH > wfaH ){
 			if(angle < 135){
-				angle += deltaTime*0.1;
+				angle += deltaTime*0.5/this.liNub;
 			}
 			document.getElementById("ap_jiahao").style.transform = "rotate(" + angle + "deg)";
 		}
 		else{
 			if(angle > 0){
-				angle -= deltaTime*0.1;
+				angle -= deltaTime*0.5/this.liNub;
 			}
 			document.getElementById("ap_jiahao").style.transform = "rotate(" + angle + "deg)";
 		}

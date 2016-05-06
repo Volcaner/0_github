@@ -1,0 +1,40 @@
+body{
+	word-break:break-all;
+	overflow-x: hidden;
+	overflow-y:scroll;
+	color: #333;
+	font-family: Garamond;
+	
+	/*SCROLLBAR-ARROW-COLOR: #92C0D1 */
+}
+div{
+	width: 90%;
+	/*height: auto;*/
+	position: relative;
+	margin: 50px auto 50px auto;
+	padding: 0 0 20px 0;
+	border-bottom: 1px dashed #aaa;
+}
+small{
+	color: rgb(185,22,18);
+}
+p{
+	letter-spacing: 1px; 
+	/*word-spacing: 0em;*/
+	line-height: 180%; 
+	font-size: 14px;
+	text-indent: 2em;
+}
+p img{
+	display: block; 
+	margin: 0 auto;
+}
+p video{
+	display: block;
+	margin: 0 auto;
+}
+mark{
+	color: rgb(233,71,70);
+	background: rgb(255,255,255);
+	text-decoration: underline;
+}

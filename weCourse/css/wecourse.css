@@ -115,6 +115,7 @@
 	background: rgba(255,255,255,1);
 	/*background: green;*/
 	border-radius: 0 0 5px 5px;
+	box-shadow: 5px 3px 5px #aaa;
 }
 #folder_body_box{
 	position: relative; 
@@ -122,6 +123,7 @@
 	border: 0px none;
 	width: 100%;
 	min-height: 1000px;
+	border-radius: 0 0 5px 5px;
 }
 /*#we_folder_body blockquote{
 	padding: 10px 30px;
@@ -150,8 +152,13 @@
 .folder_aside_box:hover{
 	background: rgba(0,185,239,0.4);
 }
+.folder_aside_box p{
+	margin: 0px 0 20px 5px;
+	color: #fff;
+}
 .folder_aside_box a{
 	text-decoration: none;
+	font-size: 12px;
 	margin: 0 10px 10px 10px;
 	color: #fff;
 	display: block;
