@@ -42,13 +42,17 @@ body{
 }
 #index_top_pic01 img,#index_top_pic02 img,#index_top_pic03 img{
 	width: 100%;
+	min-height: 200px;
 }
 
+#index_top_LS{
+
+}
 #index_smallCircle{
 	position: absolute;
 	width: 20%;
 	height: 14px;
-	margin: 200px auto 0 40%;
+	margin: 2% auto 0 40%;
 	
 }
 .smallCircle{
@@ -60,7 +64,7 @@ body{
 	border: 2px solid #fff;
 	border-radius: 10px;
 	cursor: pointer;
-	/*margin: 0px auto 0px auto;*/
+	margin: 150px auto 0px auto;
 	z-index: 1;
 }
 .smallCircle:hover{
@@ -69,7 +73,7 @@ body{
 #index_logo{
 	position: absolute;
 	width: 100%;
-	padding-top: 50px;
+	padding-top: 2%;
 	text-align: center;
 	z-index: 100;
 }
