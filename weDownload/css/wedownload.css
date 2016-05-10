@@ -96,7 +96,7 @@
 	color: #fff;
 	margin: 5px 0px 0px 10px;
 	font-size: 12px;
-	height: 16px;
+	min-height: 16px;
 }
 #we_folder_article ul li.article02 a:hover{
 	color: #ddd;
